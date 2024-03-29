@@ -95,7 +95,7 @@ def app():
             image = Image.open('assets/dp.jpg')
             st.markdown(f'<div class="circular-image"><img src="data:image/jpeg;base64,{image_to_base64(image)}"/></div>', unsafe_allow_html=True)
         # Personal details
-        st.markdown("<div style='text-align:center;'><b style='font-size:27px;font-family:courier new;'>Hello, I'm <span class='gradient-text-subheader'>Angad</span>,a <span class='gradient-text-subheader'>Data Scientist</span> fueled by an intrinsic drive to decode the data maze. By refining our analytical strategies and deciphering the hidden messages within, I unearth actionable insights that not only shape today's decisions but also pave the way for tomorrow's breakthroughs.</div><br>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align:center;'><b style='font-size:27px;font-family:courier new;'>Hello, I'm <span class='gradient-text-subheader'>Angad</span>,a <span class='gradient-text-subheader'>Data Scientist</span> fueled by an intrinsic drive to decode the data maze. By fine-tuning my analytical strategies and deciphering the hidden messages within, I unearth actionable insights that not only shape today's decisions but also pave the way for tomorrow's breakthroughs.</div><br>", unsafe_allow_html=True)
         # st.markdown("<b>🎂 26 August 1996</b>", unsafe_allow_html=True)
         col1,col2=st.columns(2)
         # About me
